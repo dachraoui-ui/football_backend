@@ -13,7 +13,7 @@ export class NinjasController {
     return type 
   }
 
-  @Get(':id')
+  @Get(':id') 
   findbyId(@Param('id') id : string){
     return 'this is my ' + id
   }
